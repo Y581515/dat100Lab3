@@ -1,7 +1,7 @@
 package dat100Lab3;
 import static java.lang.Math.*;
 
-public class oppg3 {
+public class oppg3Exponent {
 
 	public static void main(String[] args) {
 		double x=3;

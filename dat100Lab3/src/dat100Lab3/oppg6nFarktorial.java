@@ -1,7 +1,7 @@
 package dat100Lab3;
 import static javax.swing.JOptionPane.*;
 
-public class oppg6n {
+public class oppg6nFarktorial {
 
 	public static void main(String[] args) {
 		int n=Integer.parseInt(showInputDialog("sett inn tall du vil finne fakuliteten til"));

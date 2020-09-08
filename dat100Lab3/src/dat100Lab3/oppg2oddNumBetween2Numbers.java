@@ -2,7 +2,7 @@ package dat100Lab3;
 import static javax.swing.JOptionPane.*;
 
 
-public class oppg2 {
+public class oppg2oddNumBetween2Numbers {
 
 	public static void main(String[] args) {
 		int a=Integer.parseInt(showInputDialog("tall1"));
