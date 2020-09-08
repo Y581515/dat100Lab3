@@ -9,13 +9,18 @@ public class oppg2 {
 		int b=Integer.parseInt(showInputDialog("tall2"));
 		
 		int i;
-		
+		String Resultat="Resultat: ";
 		for (i=a;i<=b;i++) {
 			if(i%2==1) {
-				showMessageDialog(null,"Resultat: "+i+", ");
-				
-			}	
+				if (i==b || i==b-1) {
+					Resultat = Resultat + i+".";
+				} else {
+					Resultat = Resultat + i + ", ";
+				}
+			}
 		}
 		
+		System.out.println(Resultat);
+		showMessageDialog(null,Resultat);
 	}
 }
