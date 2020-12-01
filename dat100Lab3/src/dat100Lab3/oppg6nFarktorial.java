@@ -17,12 +17,12 @@ public class oppg6nFarktorial {
 		System.out.println(n + "! =  " + fakulitet(n));
 	}
 
-	public static int fakulitet(int tall) {
-		if (tall == 0) {
-			tall = 1;
+	public static int fakulitet(int tal) {
+		if (tal == 0) {
+			tal = 1;
 		} else {
-			tall = tall * fakulitet(tall - 1);
+			tal = tal * fakulitet(tal - 1);
 		}
-		return tall;
+		return tal;
 	}
 }
