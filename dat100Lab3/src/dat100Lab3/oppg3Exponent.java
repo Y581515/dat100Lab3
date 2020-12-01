@@ -5,7 +5,7 @@ public class oppg3Exponent {
 
 	public static void main(String[] args) {
 		double x=3;
-		int n=3;
+		double n=2;
 		
 		
 		

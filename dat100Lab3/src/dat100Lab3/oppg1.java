@@ -22,7 +22,7 @@ public class oppg1 {
         System.out.println();
       }
 
-      i = i + 1;
+      i++;
     }
   }
 }
